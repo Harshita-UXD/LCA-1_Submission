@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          
+        fieldset {
+          background-color: #e3e3e3;
+        }
+        
+        legend {
+          background-color: rgb(192, 190, 190);
+          color: white;
+          padding: 10px 20px;
+        }
+        
+        input {
+          margin: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto; /* Creates 3 columns */
+            gap: 10px; /* Adds space between grid items */
+        }
+        .grid-item {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h6 {
+            color: blue;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* ✅ Media Query for mobile (max-width: 600px) */
+        @media (max-width: 600px) {
+            body {
+                background-color: lightgray;
+            }
+
+            h6 {
+                color: red;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        </style>
+    </head>
+
+    <body>
+
+        <form action="/action_page.php">
+          <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
+        
+        <title>Grid Layout</title>
+
+    <h2>Grid Layout</h2>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+  
+      <h6>Welcome to My Website</h6>
+      <p>This is a simple example of a media query.</p>
+  
+        </body>
+
+
+</html>

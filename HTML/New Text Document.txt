@@ -1,0 +1,44 @@
+<!DOCTYPE= HTML>
+
+<head> Harshita </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Web Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Basic Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This is a simple HTML document created to demonstrate links and images. HTML is a foundational language for creating web pages.</p>
+        <p>Learn more about <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some amazing images:</p>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image 1" width="300" />
+        <img src="https://via.placeholder.com/400" alt="Placeholder Image 2" width="400" />
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to <a href="mailto:example@example.com">email me</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Basic Web Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
